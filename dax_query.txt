@@ -1,0 +1,39 @@
+// DAX Query
+
+// DAX Query
+DEFINE
+	VAR __DS0Core = 
+		SUMMARIZECOLUMNS(
+			'BDSM_DataSource'[SSN],
+			'BDSM_DataSource'[Style_Code],
+			'BDSM_DataSource'[Prod_Cluster_Name],
+			'BDSM_DataSource'[IRPCalY],
+			'BDSM_DataSource'[IRP Month],
+			"SumEES_PUR_PCS", CALCULATE(SUM('BDSM_DataSource'[EES_PUR_PCS]))
+		)
+
+	VAR __DS0PrimaryWindowed = 
+		TOPN(
+			501,
+			__DS0Core,
+			'BDSM_DataSource'[SSN],
+			1,
+			'BDSM_DataSource'[Style_Code],
+			1,
+			'BDSM_DataSource'[Prod_Cluster_Name],
+			1,
+			'BDSM_DataSource'[IRPCalY],
+			1,
+			'BDSM_DataSource'[IRP Month],
+			1
+		)
+
+EVALUATE
+	__DS0PrimaryWindowed
+
+ORDER BY
+	'BDSM_DataSource'[SSN],
+	'BDSM_DataSource'[Style_Code],
+	'BDSM_DataSource'[Prod_Cluster_Name],
+	'BDSM_DataSource'[IRPCalY],
+	'BDSM_DataSource'[IRP Month]

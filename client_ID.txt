@@ -1,0 +1,2 @@
+Provider=MSOLAP.8;Integrated Security=ClaimsToken;Persist Security Info=True;Initial Catalog=sobe_wowvirtualserver-39d72aa7-5e35-4dd1-bd28-9f5903a75881;Data Source=pbiazure://api.powerbi.com;MDX Compatibility=1;Safety Options=2;MDX Missing Member Mode=Error;Identity Provider=https://login.microsoftonline.com/common, 
+https://analysis.windows.net/powerbi/api, 929d0ec0-7a41-4b1e-bc7c-b754a28bddcc;Update Isolation Level=2
