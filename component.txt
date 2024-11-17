@@ -1,0 +1,13 @@
+Explanation of Components:
+https://login.microsoftonline.com/common:
+
+This is the authentication endpoint for Azure Active Directory (Azure AD).
+It is used to obtain a token for a given tenant. The common segment allows authentication for any Azure AD tenant and is often used for multi-tenant applications.
+https://analysis.windows.net/powerbi/api:
+
+This is the resource identifier for the Power BI service.
+The token issued by Azure AD will allow access to this resource.
+929d0ec0-7a41-4b1e-bc7c-b754a28bddcc:
+
+This is the Client ID of an application registered in Azure AD.
+It likely corresponds to the official Power BI app or a custom app registered by your organization for authenticating and accessing Power BI resources.
