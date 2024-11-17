@@ -80,6 +80,7 @@ DataFrame Example
 
 [PowerBIDataConnector.ipynb](https://github.com/sebsebsebsebtimes4/Python-for-BI-Semantic-Data-Model-Connector/blob/main/PowerBIDataConnector.ipynb)
 
-![DataFrame Example](pbiresult.png)
+Connector Script
+![DataFrame Example](biconnector.png)
 
 
