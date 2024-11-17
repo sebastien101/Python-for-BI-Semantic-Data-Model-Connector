@@ -73,6 +73,7 @@ ORDER BY
           
 '''
 ```
+![alt text](pbiresult.png)
 
 
 [PowerBIDataConnector.ipynb](https://github.com/sebsebsebsebtimes4/Python-for-BI-Semantic-Data-Model-Connector/blob/main/PowerBIDataConnector.ipynb)
