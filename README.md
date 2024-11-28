@@ -1,7 +1,7 @@
 # Python-for-BI-Semantic-Data-Model-Connector
 
-The PowerBI semantic data models can be connected via excel or PowerBI desktop or via Python connector scripts. 
-By using Python script, the data can be imported directly and perform data anylicts with Python using pandas or other libraries.
+The Power BI semantic data models can be connected via Excel, Power BI Desktop, or Python connector scripts.
+By using a Python script, the data can be imported directly and analyzed with Python using Pandas or other libraries.
 
 Required information 
 1. Dataset ID
