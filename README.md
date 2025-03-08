@@ -74,7 +74,7 @@ ORDER BY
 '''
 ```
 
-DataFrame Example
+DataFrame Example (This is how Data Frame looks like when imported in JupyterNote book)
 ![DataFrame Example](pbiresult.png)
 
 
